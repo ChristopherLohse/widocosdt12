@@ -1,0 +1,1275 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime>) replaced by DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> owl:Thing)"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#disjointWith"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Annotation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi on 10/17/22 11:51 PM"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime>) replaced by DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> owl:Thing)"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+    }, {
+      "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/Entertainnmentontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  }, {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"
+  }, {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#Nothing"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Nothing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

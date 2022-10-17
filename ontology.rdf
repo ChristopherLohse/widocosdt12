@@ -1,0 +1,964 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/Entertainnmentontology#"
+     xml:base="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/Entertainnmentontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/Entertainnmentontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid22"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(&lt;http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime&gt; owl:Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi on 10/17/22 11:51 PM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid22">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(&lt;http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime&gt; owl:Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

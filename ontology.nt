@@ -1,0 +1,701 @@
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/Entertainnmentontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#drawnby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#happenedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountryof> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#involvedCountries> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#playedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#producedin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#features> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+# 
+# http://www.w3.org/2002/07/owl#topObjectProperty
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#hassong> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+_:genid11 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+_:genid12 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#starsin> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+_:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+_:genid14 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#beenawarded> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid16 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#writtenby> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid17 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#directedby> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid18 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#performedby> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> .
+_:genid19 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#includedin> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+_:genid20 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#livedin> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#country> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#homecountry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#npages> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid21 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#awardedto> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#parodyAward> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#rating> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+# 
+# http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2002/07/owl#Nothing> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Nothing> .
+<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Annotation> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedSource> _:genid22 .
+_:genid22 <http://www.w3.org/2000/01/rdf-schema#comment> "DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime>) replaced by DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> owl:Thing)" .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#disjointWith> .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedTarget> "DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime>) replaced by DisjointClasses(<http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#screentime> owl:Thing)" .
+_:genid23 <http://www.w3.org/2000/01/rdf-schema#comment> "Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi on 10/17/22 11:51 PM" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid24 <http://www.w3.org/2002/07/owl#members> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#releasedate> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#genre> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Movie> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Book> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Album> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid30 <http://www.w3.org/2002/07/owl#members> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Song> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Entertainmentype> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Award> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Artist> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid35 <http://www.w3.org/2002/07/owl#members> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Lastname> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Firstname> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathplace> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Deathdate> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthplace> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Birthdate> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid42 <http://www.w3.org/2002/07/owl#members> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Year> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Name> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#Category> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid46 <http://www.w3.org/2002/07/owl#members> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#geografics> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#exists> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#dateofindependence> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/christopherlohse/ontologies/2022/9/entertainment#continenent> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
